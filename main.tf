@@ -12,7 +12,7 @@ terraform {
   required_version = "~> 1.0"
 
   backend "remote" {
-    organization = "ACG-Terraform-Demos78"
+    rganization = "ACG-Terraform-Demos"
 
     workspaces {
       name = "demo-github-actions"
@@ -53,4 +53,11 @@ resource "aws_security_group" "web-sg" {
 
 output "web-address" {
   value = "${aws_instance.web.public_dns}:8080"
-}
+}:wq
+
+
+
+
+
+:wq
+
